@@ -1,0 +1,129 @@
+html {
+    background-color: black;
+}
+
+#container {
+    width: 500px;
+    height: 750px;
+    overflow: visible;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 12px;
+    font-weight: 100;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+h3 {
+    color: #FFFFFF;
+}
+
+#upper {
+    background-color: #3A69D2;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#downer {
+    background-color: #1F2937;
+}
+
+.tasks {
+    margin: 20 5 20 5;
+    width: 125px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    color: #4A4E74;
+    background-color: #D1D4F4;
+}
+
+.tasks:hover {
+    border: 1px solid white;
+    background-color: #075985;
+    color: white;
+    transition-duration: 200ms;
+}
+
+.righth3 {
+    position: sticky;
+    top:20px;
+    left: 20px;
+}
+
+.table-left {
+    text-align: left;
+}
+
+.table-right {
+    text-align: right;
+}
+
+.selected-section {
+    margin-top: 10px;
+}
+
+table {
+    width: 95%;
+}
+
+th {
+    color: #D5D4D8;
+    font-size: 12px;
+}
+
+td {
+    font-size: 20px;
+}
+
+#sendInvoice {
+    margin: 25 0 25 0;
+    width: 80%;
+    height: 25px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: #3A69D2;
+}
+
+#sendInvoice:hover {
+    border: 1px solid white;
+    background-color: #047857;
+    transition-duration: 200ms;
+}
+
+#total-amount {
+    color: white;
+}
+
+.note-section {
+    margin: 10 10 10 10;
+}
+
+hr {
+    width: 90%;
+}
+
+.disabledClass {
+    margin: 20 5 20 5;
+    width: 125px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    color: #4A4E74;
+    background-color: #D1D4F4;
+    text-decoration: line-through;
+    transition-duration: 250ms;
+}
+
